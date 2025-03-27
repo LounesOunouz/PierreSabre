@@ -15,5 +15,6 @@ public class Ronin extends Humain {
 		benef.parler(q+ " sous ! je te remercis genereux donneur! "); 
 		
 	}
+	
 
 }
