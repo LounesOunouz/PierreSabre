@@ -31,7 +31,7 @@ public class Humain {
 		parler("Mmmm, un bon verre de " + getBoissonPrefere() + "! GLOUPS ! ");
 	}
 
-	private void parler(String s) {
+	protected void parler(String s) {
 		System.out.println("(" + getNom() + ")-" + " " + s);
 	}
 
