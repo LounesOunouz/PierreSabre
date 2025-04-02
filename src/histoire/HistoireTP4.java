@@ -28,6 +28,10 @@ public class HistoireTP4 {
 		Ronin r =new Ronin("Roco", 60); 
 		r.direBonjour();
 		r.donner(marco);
+		Ronin r2=new Ronin("Roco", 54);
+		Yakuza y2 = new Yakuza("Yaku Le Noir ", 45, "Warsong"); 
+		System.out.println("~~~~~~~~Bataille ronin yakuza~~~~~~~~~\n");
+		r2.provoquer(y2);
 		
 	}
 
