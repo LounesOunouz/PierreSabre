@@ -4,7 +4,6 @@ public class Commercant extends Humain {
 
 	public Commercant(String nom, int quantiteArgent) {
 		super(nom, " thé", quantiteArgent);
-		// TODO Auto-generated constructor stub
 	}
 
 	public int seFaireExtorquer() {
@@ -14,8 +13,9 @@ public class Commercant extends Humain {
 		return somme;
 
 	}
+
 	public void recevoir(int argent) {
 		gagnerArgent(argent);
-		parler(argent+" sous! je te remercie généreux donateurs! "); 
+		parler(argent + " sous! je te remercie généreux donateurs! ");
 	}
 }

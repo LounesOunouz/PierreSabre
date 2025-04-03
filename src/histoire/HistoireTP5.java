@@ -15,10 +15,10 @@ public class HistoireTP5 {
 		marco.faireConnaissanceAvec(yaku);
 		marco.faireConnaissanceAvec(chonin);
 		marco.faireConnaissanceAvec(kumi);
-marco.listerConnaissance();
-roro.listerConnaissance();
-yaku.listerConnaissance();
+		marco.listerConnaissance();
+		roro.listerConnaissance();
+		yaku.listerConnaissance();
 
 	}
-	
+
 }

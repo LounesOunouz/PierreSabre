@@ -39,4 +39,14 @@ public class Yakuza extends Humain {
 				+ " sous.");
 	}
 
+	@Override
+	public void direBonjour() {
+		super.direBonjour();
+		parler("Mon clan est celui du " + getClan());
+	}
+
+	public String getClan() {
+		return clan;
+	}
+
 }
