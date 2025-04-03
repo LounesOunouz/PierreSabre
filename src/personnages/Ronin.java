@@ -4,7 +4,7 @@ public class Ronin extends Humain {
 	private int honneur = 1;
 
 	public Ronin(String nom, int quantiteArgent) {
-		super(nom, "shochu", quantiteArgent);
+		super(nom, "saké", quantiteArgent);
 
 	}
 

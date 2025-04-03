@@ -2,6 +2,7 @@ package histoire;
 
 import personnages.Commercant;
 import personnages.Ronin;
+import personnages.Samourai;
 import personnages.Yakuza;
 
 public class HistoireTP5 {
@@ -18,7 +19,16 @@ public class HistoireTP5 {
 		marco.listerConnaissance();
 		roro.listerConnaissance();
 		yaku.listerConnaissance();
+		System.out.println("~~~~~~~~~~~~test des samouerai~~~~~~~~~~~~");
+		Samourai akimoto = new Samourai("Akimoto", "Miyamoto", 80);
+		// akimoto.direBonjour();
+		akimoto.faireConnaissanceAvec(marco);
+		akimoto.listerConnaissance();
+		akimoto.boire("thé");
+		// ((Ronin) akimoto).boire("thé"); // ne compile pas, la surcharge est résolue à
+		// la compilation
 
+		akimoto.boire();
 	}
 
 }
