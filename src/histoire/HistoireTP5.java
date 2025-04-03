@@ -3,6 +3,7 @@ package histoire;
 import personnages.Commercant;
 import personnages.Ronin;
 import personnages.Samourai;
+import personnages.Traitre;
 import personnages.Yakuza;
 
 public class HistoireTP5 {
@@ -29,6 +30,8 @@ public class HistoireTP5 {
 		// la compilation
 
 		akimoto.boire();
+		Traitre masako = new Traitre("Miyamoto", "Masako", 100);
+		masako.raconner(kumi);
 	}
 
 }
